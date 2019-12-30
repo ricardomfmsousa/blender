@@ -1,6 +1,5 @@
 {
     "asset" : {
-        "copyright" : "Ricardo Sousa",
         "generator" : "Khronos glTF Blender I/O v1.0.5",
         "version" : "2.0"
     },
@@ -65,22 +64,58 @@
         {
             "doubleSided" : true,
             "name" : "Dirt",
-            "pbrMetallicRoughness" : {}
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.3049874007701874,
+                    0.19806934893131256,
+                    0.08021986484527588,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
         },
         {
             "doubleSided" : true,
             "name" : "Water",
-            "pbrMetallicRoughness" : {}
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.1384316384792328,
+                    0.1247718557715416,
+                    0.7991030216217041,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
         },
         {
             "doubleSided" : true,
             "name" : "Grass",
-            "pbrMetallicRoughness" : {}
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.06847795844078064,
+                    0.7991030812263489,
+                    0.0930589884519577,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
         },
         {
             "doubleSided" : true,
             "name" : "Mountains",
-            "pbrMetallicRoughness" : {}
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.03071342408657074,
+                    0.16826941072940826,
+                    0.04373505339026451,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
         }
     ],
     "meshes" : [
